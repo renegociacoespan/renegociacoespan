@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    position: relative;
+    padding: 50px;
+    background-image: url('../imgs/Carros2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.header .overlay-black {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    background-color: rgba(0,0,0,.75);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    z-index: 2;
+}
+
+.header .header-content {
+    /* background: rgb(133, 133, 133); */
+    z-index: 3;
+    position: relative;
+}
+
+.logo-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.logo-img div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.logo-img>div img {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content>.logo-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-content>.logo-part h3{
+    margin-left: 20px;
+
+    font-weight: normal;
+    font-size: 35px;
+    color: white;
+}
+
+.header-content>.logo-part img{
+    width: calc(120px/3);
+}
+
+.header-content>.text-part {
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+
+.header-content>.text-part h1 {
+    font-size: 40pt;
+}
+
+.header-content>.text-part p {
+    margin-top: 15px;
+    font-size: 18pt;
+}
